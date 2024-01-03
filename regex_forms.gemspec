@@ -4,20 +4,20 @@ require_relative "lib/regex_forms/version"
 
 Gem::Specification.new do |spec|
   spec.name = "regex_forms"
-  spec.version = RegexForms::VERSION
-  spec.authors = ["TODO: Write your name"]
-  spec.email = ["TODO: Write your email address"]
+  spec.version = Regex::VERSION
+  spec.authors = ["Guiherme Dantas"]
+  spec.email = ["gui.dg1@hotmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "lib content regex for forms validation"
+  spec.description = "Regex is a versatile Ruby library designed to simplify form validation by providing a collection of regular expressions tailored for common form fields. Whether you're building a web application, validating user input, or processing form submissions, this library offers a set of regex patterns that can be easily integrated into your validation logic."
+  spec.homepage = "https://github.com/Dants0/regex_forms"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/Dants0/regex_forms"
+  spec.metadata["changelog_uri"] = "https://github.com/Dants0/regex_forms"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
