@@ -4,7 +4,7 @@ require_relative "lib/regex_forms/version"
 
 Gem::Specification.new do |spec|
   spec.name = "regex_forms"
-  spec.version = Regex::VERSION
+  spec.version = RegexForms::VERSION
   spec.authors = ["Guiherme Dantas"]
   spec.email = ["gui.dg1@hotmail.com"]
 
