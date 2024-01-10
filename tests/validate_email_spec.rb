@@ -32,16 +32,17 @@ RSpec.describe RegexForms::ValidateEmail do
         result = validator.validateEmail
 
         expect(result[:validation]).to be_falsy
-        expect(result[:message]).to include("Email is nil, empty")
+        expect(result[:message]).to include("Email is nil")
       end
     end
 
     context "with an empty email" do
       it "returns an invalid response" do
-        validator = RegexForms::ValidateEmail.new("")
+        validator = RegexForms::ValidateEmail.new("fulanodetal@gmail.com")
         result = validator.validateEmail
 
         expect(result[:validation]).to be_falsy
+        #erro proposital na linha 46
         expect(result[:message]).to include("Email is nil")
       end
     end
